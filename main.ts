@@ -7,7 +7,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const LINE =
-  "The stars say your wallet is empty, but your character arc is finally worth watching.";
+  "The stars say your wallet is empty, but fate kept your laugh as your real margin.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
